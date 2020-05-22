@@ -1,5 +1,5 @@
 
-function hypnotic(event) {
-    let hello = document.getElementsByClassName('introduction')
-    
+function hypnotic() {
+    console.log('hello')
+    document.getElementsByClassName('wholeContainer')[0].id = 'partyMode'
 }
