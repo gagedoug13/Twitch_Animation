@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background: url('hypnoticBackground.png');
 }
 #partyMode {
     height: 100vh;
@@ -9,3 +9,37 @@ body {
     opacity: 50%;
 }
 
+.wholeContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.introduction{
+    display: inline-block;
+    padding:0.46em 1.6em;
+    border:0.1em solid #000000;
+    margin:0 0.2em 0.2em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-size: 5.5vh;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:black;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    background-color:transparent;
+    text-align:center;
+    transition: all 0.15s;
+    margin-top: 40vh;
+  }
+    .introduction:hover{
+    text-shadow: 0 0 2em rgba(255,255,255,1);
+    color:seagreen;
+    border-color:pink;
+  }
+    @media all and (max-width:30em){
+     .introduction {
+    display:block;
+    margin:0.4em auto;
+    }
+  }
