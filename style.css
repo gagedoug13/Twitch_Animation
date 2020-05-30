@@ -33,7 +33,7 @@ body {
   }
     .introduction:hover{
     text-shadow: 0 0 2em rgba(255,255,255,1);
-    color:seagreen;
+    color:blue;
     border-color:pink;
   }
     @media all and (max-width:30em){
